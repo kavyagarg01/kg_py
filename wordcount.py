@@ -1,5 +1,6 @@
 #! /usr/bin/python
 import sys
+import os
 filename=sys.argv[1]
 f1 = open(filename,'r')
 ls= f1.read().split(' ')
